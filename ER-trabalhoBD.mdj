@@ -2911,34 +2911,6 @@
 						},
 						{
 							"_type": "ERDRelationship",
-							"_id": "AAAAAAFnl/npZhMnlQI=",
-							"_parent": {
-								"$ref": "AAAAAAFnl+ICvw9orwo="
-							},
-							"end1": {
-								"_type": "ERDRelationshipEnd",
-								"_id": "AAAAAAFnl/npZhMoYe4=",
-								"_parent": {
-									"$ref": "AAAAAAFnl/npZhMnlQI="
-								},
-								"reference": {
-									"$ref": "AAAAAAFnl+ICvw9orwo="
-								}
-							},
-							"end2": {
-								"_type": "ERDRelationshipEnd",
-								"_id": "AAAAAAFnl/npZhMpKqM=",
-								"_parent": {
-									"$ref": "AAAAAAFnl/npZhMnlQI="
-								},
-								"reference": {
-									"$ref": "AAAAAAFnl+uzZhCO5Js="
-								},
-								"cardinality": "1..*"
-							}
-						},
-						{
-							"_type": "ERDRelationship",
 							"_id": "AAAAAAFnmAcLDhPKY+8=",
 							"_parent": {
 								"$ref": "AAAAAAFnl+ICvw9orwo="
@@ -3087,7 +3059,7 @@
 							},
 							"name": "num_Aluno",
 							"type": "INTEGER",
-							"length": "6",
+							"length": 0,
 							"primaryKey": true
 						},
 						{
@@ -3118,7 +3090,7 @@
 							},
 							"name": "id_curso",
 							"type": "INTEGER",
-							"length": "5",
+							"length": 0,
 							"foreignKey": true,
 							"referenceTo": {
 								"$ref": "AAAAAAFnmBHiBBQuNmU="
@@ -3142,7 +3114,7 @@
 							},
 							"name": "nPorta",
 							"type": "INTEGER",
-							"length": "6"
+							"length": 0
 						},
 						{
 							"_type": "ERDColumn",
@@ -3166,7 +3138,7 @@
 							},
 							"name": "telefone",
 							"type": "INTEGER",
-							"length": "9"
+							"length": 0
 						},
 						{
 							"_type": "ERDColumn",
@@ -3186,7 +3158,7 @@
 							},
 							"name": "NIF",
 							"type": "INTEGER",
-							"length": "9"
+							"length": 0
 						}
 					]
 				},
@@ -3291,7 +3263,7 @@
 							},
 							"name": "id_Professor",
 							"type": "INTEGER",
-							"length": "3",
+							"length": 0,
 							"primaryKey": true
 						},
 						{
@@ -3322,7 +3294,7 @@
 							},
 							"name": "nPorta",
 							"type": "INTEGER",
-							"length": "6"
+							"length": 0
 						},
 						{
 							"_type": "ERDColumn",
@@ -3346,7 +3318,7 @@
 							},
 							"name": "telefone",
 							"type": "INTEGER",
-							"length": "9"
+							"length": 0
 						},
 						{
 							"_type": "ERDColumn",
@@ -3366,7 +3338,7 @@
 							},
 							"name": "NIF",
 							"type": "INTEGER",
-							"length": "9"
+							"length": 0
 						}
 					]
 				},
@@ -3444,7 +3416,7 @@
 							},
 							"name": "id_Disciplina",
 							"type": "INTEGER",
-							"length": "2",
+							"length": 0,
 							"primaryKey": true
 						},
 						{
@@ -3599,7 +3571,7 @@
 							},
 							"name": "num_Sessao",
 							"type": "INTEGER",
-							"length": "6",
+							"length": 0,
 							"primaryKey": true
 						},
 						{
@@ -3640,7 +3612,7 @@
 							},
 							"name": "id_disciplina",
 							"type": "INTEGER",
-							"length": "2",
+							"length": 0,
 							"foreignKey": true,
 							"referenceTo": {
 								"$ref": "AAAAAAFnl+iIpxAh0/s="
@@ -3654,7 +3626,7 @@
 							},
 							"name": "id_Professor",
 							"type": "INTEGER",
-							"length": "3",
+							"length": 0,
 							"foreignKey": true,
 							"referenceTo": {
 								"$ref": "AAAAAAFnl+ek9g/mTEc="
@@ -3668,7 +3640,7 @@
 							},
 							"name": "id_sala",
 							"type": "INTEGER",
-							"length": "2",
+							"length": 0,
 							"foreignKey": true,
 							"referenceTo": {
 								"$ref": "AAAAAAFnoy3WT+9zzIo="
@@ -3708,62 +3680,6 @@
 								},
 								"reference": {
 									"$ref": "AAAAAAFnl+xMxhCrHu0="
-								},
-								"cardinality": "1..*"
-							}
-						},
-						{
-							"_type": "ERDRelationship",
-							"_id": "AAAAAAFnl/n4wRM7vDY=",
-							"_parent": {
-								"$ref": "AAAAAAFnl+q+JBBqooQ="
-							},
-							"end1": {
-								"_type": "ERDRelationshipEnd",
-								"_id": "AAAAAAFnl/n4wRM8y0w=",
-								"_parent": {
-									"$ref": "AAAAAAFnl/n4wRM7vDY="
-								},
-								"reference": {
-									"$ref": "AAAAAAFnl+q+JBBqooQ="
-								}
-							},
-							"end2": {
-								"_type": "ERDRelationshipEnd",
-								"_id": "AAAAAAFnl/n4wRM9kxo=",
-								"_parent": {
-									"$ref": "AAAAAAFnl/n4wRM7vDY="
-								},
-								"reference": {
-									"$ref": "AAAAAAFnl+uzZhCO5Js="
-								},
-								"cardinality": "0..*"
-							}
-						},
-						{
-							"_type": "ERDRelationship",
-							"_id": "AAAAAAFnl/oh0hNzinA=",
-							"_parent": {
-								"$ref": "AAAAAAFnl+q+JBBqooQ="
-							},
-							"end1": {
-								"_type": "ERDRelationshipEnd",
-								"_id": "AAAAAAFnl/oh0hN0a6Q=",
-								"_parent": {
-									"$ref": "AAAAAAFnl/oh0hNzinA="
-								},
-								"reference": {
-									"$ref": "AAAAAAFnl+q+JBBqooQ="
-								}
-							},
-							"end2": {
-								"_type": "ERDRelationshipEnd",
-								"_id": "AAAAAAFnl/oh0hN1DvI=",
-								"_parent": {
-									"$ref": "AAAAAAFnl/oh0hNzinA="
-								},
-								"reference": {
-									"$ref": "AAAAAAFnl+uzZhCO5Js="
 								},
 								"cardinality": "1..*"
 							}
@@ -3833,7 +3749,7 @@
 							},
 							"name": "num_pagamento",
 							"type": "INTEGER",
-							"length": "6",
+							"length": 0,
 							"primaryKey": true
 						},
 						{
@@ -3864,7 +3780,7 @@
 							},
 							"name": "num_Aluno",
 							"type": "INTEGER",
-							"length": "6",
+							"length": 0,
 							"foreignKey": true,
 							"referenceTo": {
 								"$ref": "AAAAAAFnl+Va/Q94mQ0="
@@ -3878,101 +3794,11 @@
 							},
 							"name": "id_ModoPag",
 							"type": "INTEGER",
-							"length": "1",
+							"length": 0,
 							"foreignKey": true,
 							"referenceTo": {
 								"$ref": "AAAAAAFno0PJ/I0w7+4="
 							}
-						}
-					]
-				},
-				{
-					"_type": "ERDEntity",
-					"_id": "AAAAAAFnl+uzZhCO5Js=",
-					"_parent": {
-						"$ref": "AAAAAAFnl+HfHA9jDq0="
-					},
-					"name": "Pagamento_Aluno",
-					"ownedElements": [
-						{
-							"_type": "ERDRelationship",
-							"_id": "AAAAAAFnl/m1XxMLzoc=",
-							"_parent": {
-								"$ref": "AAAAAAFnl+uzZhCO5Js="
-							},
-							"end1": {
-								"_type": "ERDRelationshipEnd",
-								"_id": "AAAAAAFnl/m1XxMMdF4=",
-								"_parent": {
-									"$ref": "AAAAAAFnl/m1XxMLzoc="
-								},
-								"reference": {
-									"$ref": "AAAAAAFnl+uzZhCO5Js="
-								}
-							},
-							"end2": {
-								"_type": "ERDRelationshipEnd",
-								"_id": "AAAAAAFnl/m1XxMN1EI=",
-								"_parent": {
-									"$ref": "AAAAAAFnl/m1XxMLzoc="
-								},
-								"reference": {
-									"$ref": "AAAAAAFnl+ICvw9orwo="
-								},
-								"cardinality": "0..*"
-							}
-						},
-						{
-							"_type": "ERDRelationship",
-							"_id": "AAAAAAFnl/oOfhNXz4M=",
-							"_parent": {
-								"$ref": "AAAAAAFnl+uzZhCO5Js="
-							},
-							"end1": {
-								"_type": "ERDRelationshipEnd",
-								"_id": "AAAAAAFnl/oOfhNYfpE=",
-								"_parent": {
-									"$ref": "AAAAAAFnl/oOfhNXz4M="
-								},
-								"reference": {
-									"$ref": "AAAAAAFnl+uzZhCO5Js="
-								}
-							},
-							"end2": {
-								"_type": "ERDRelationshipEnd",
-								"_id": "AAAAAAFnl/oOfhNZ/gs=",
-								"_parent": {
-									"$ref": "AAAAAAFnl/oOfhNXz4M="
-								},
-								"reference": {
-									"$ref": "AAAAAAFnl+q+JBBqooQ="
-								},
-								"cardinality": "0..*"
-							}
-						}
-					],
-					"columns": [
-						{
-							"_type": "ERDColumn",
-							"_id": "AAAAAAFnl+vrjRCdl3I=",
-							"_parent": {
-								"$ref": "AAAAAAFnl+uzZhCO5Js="
-							},
-							"name": "num_pagamento",
-							"length": 0,
-							"primaryKey": true,
-							"foreignKey": true
-						},
-						{
-							"_type": "ERDColumn",
-							"_id": "AAAAAAFnl+wRoRCkJtc=",
-							"_parent": {
-								"$ref": "AAAAAAFnl+uzZhCO5Js="
-							},
-							"name": "num_Aluno",
-							"length": 0,
-							"primaryKey": true,
-							"foreignKey": true
 						}
 					]
 				},
@@ -4033,7 +3859,7 @@
 							},
 							"name": "num_sessao",
 							"type": "INTEGER",
-							"length": "6",
+							"length": 0,
 							"primaryKey": true,
 							"foreignKey": true
 						}
@@ -4197,7 +4023,7 @@
 							},
 							"name": "num_Aluno",
 							"type": "INTEGER",
-							"length": "6",
+							"length": 0,
 							"primaryKey": true,
 							"foreignKey": true,
 							"referenceTo": {
@@ -4212,7 +4038,7 @@
 							},
 							"name": "num_Sessao",
 							"type": "INTEGER",
-							"length": "6",
+							"length": 0,
 							"primaryKey": true,
 							"foreignKey": true,
 							"referenceTo": {
@@ -4237,7 +4063,7 @@
 							},
 							"name": "id_Disciplina",
 							"type": "INTEGER",
-							"length": "2",
+							"length": 0,
 							"primaryKey": true,
 							"foreignKey": true,
 							"referenceTo": {
@@ -4252,7 +4078,7 @@
 							},
 							"name": "id_professor",
 							"type": "INTEGER",
-							"length": "3",
+							"length": 0,
 							"primaryKey": true,
 							"foreignKey": true,
 							"referenceTo": {
@@ -4336,7 +4162,7 @@
 							},
 							"name": "id_Curso",
 							"type": "INTEGER",
-							"length": "5",
+							"length": 0,
 							"primaryKey": true
 						},
 						{
@@ -4367,7 +4193,7 @@
 							},
 							"name": "id_tipo",
 							"type": "INTEGER",
-							"length": "1",
+							"length": 0,
 							"foreignKey": true,
 							"referenceTo": {
 								"$ref": "AAAAAAFno0tLv42iM1s="
@@ -4482,7 +4308,7 @@
 							},
 							"name": "id_sala",
 							"type": "INTEGER",
-							"length": "2",
+							"length": 0,
 							"primaryKey": true
 						},
 						{
@@ -4493,7 +4319,7 @@
 							},
 							"name": "id_tipo",
 							"type": "INTEGER",
-							"length": "2",
+							"length": 0,
 							"foreignKey": true,
 							"referenceTo": {
 								"$ref": "AAAAAAFnozVia++oZ+4="
@@ -4547,7 +4373,7 @@
 							},
 							"name": "id_tipo",
 							"type": "INTEGER",
-							"length": "2",
+							"length": 0,
 							"primaryKey": true
 						},
 						{
@@ -4608,7 +4434,7 @@
 							},
 							"name": "id_ModoPag",
 							"type": "INTEGER",
-							"length": "1",
+							"length": 0,
 							"primaryKey": true
 						},
 						{
@@ -4669,7 +4495,7 @@
 							},
 							"name": "id_tipo",
 							"type": "INTEGER",
-							"length": "1",
+							"length": 0,
 							"primaryKey": true
 						},
 						{
