@@ -4556,7 +4556,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFnozUxiO+aLlM="
 							},
-							"name": "descrcao",
+							"name": "descricao",
 							"type": "VARCHAR",
 							"length": "50"
 						}
