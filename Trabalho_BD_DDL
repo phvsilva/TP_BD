@@ -1,4 +1,3 @@
-*/
 DROP TABLE Aluno CASCADE CONSTRAINTS;
 DROP TABLE Professor CASCADE CONSTRAINTS;
 DROP TABLE Disciplina CASCADE CONSTRAINTS;
@@ -14,7 +13,6 @@ DROP TABLE Salas CASCADE CONSTRAINTS;
 DROP TABLE TipoSala CASCADE CONSTRAINTS;
 DROP TABLE Modo_Pagamento CASCADE CONSTRAINTS;
 DROP TABLE TipoCurso CASCADE CONSTRAINTS;
-*/
 
 CREATE TABLE Aluno (
     num_Aluno INTEGER(6) NOT NULL,
@@ -62,7 +60,7 @@ CREATE TABLE Sessao (
 
 CREATE TABLE Pagamento (
     num_pagamento INTEGER(6) NOT NULL,
-    valor_total NUMBER(5,2) NOT NULL,
+    valor_total NUMERIC(5,2) NOT NULL,
     data_pagamento DATE NOT NULL,
     num_Aluno INTEGER(6) NOT NULL,
     id_ModoPag INTEGER(1) NOT NULL,
@@ -115,7 +113,7 @@ CREATE TABLE Salas (
 
 CREATE TABLE TipoSala (
     id_tipo INTEGER(2) NOT NULL,
-    descrcao VARCHAR(50) NOT NULL,
+    descricao VARCHAR(50) NOT NULL,
     PRIMARY KEY (id_tipo)
 );
 
