@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="PAGAMENTO_SESSAO" directorySegmentName="seg_0" id="F250E297-AF46-1FF9-B2D5-ECC1444C7AF7">
+<createdBy>srk</createdBy>
+<createdTime>2018-12-12 18:39:47 UTC</createdTime>
+<ownerDesignName>modelo_er_bd_tp</ownerDesignName>
+<schemaObject>6B2ABCF9-45F8-D2DA-3840-366AADD26689</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>9C84E7C4-42B8-1F4C-0B7C-3CD534E103E6</segment>
+<tableSpace>27743951-DBEB-F32D-DF9E-7A8698B63BFD</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="NUM_PAGAMENTO" id="11798B37-3BC1-0616-A7FD-7E1BEA6B1A73">
+<createdBy>srk</createdBy>
+<createdTime>2018-12-12 18:39:47 UTC</createdTime>
+<ownerDesignName>modelo_er_bd_tp</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NUM_SESSAO" id="D0E892CE-5715-D63D-07F9-4FF342CE216C">
+<createdBy>srk</createdBy>
+<createdTime>2018-12-12 18:39:47 UTC</createdTime>
+<ownerDesignName>modelo_er_bd_tp</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SYS_C007447" id="13061C4A-16B1-2254-8CAF-74858E11F79A">
+<createdBy>srk</createdBy>
+<createdTime>2018-12-12 18:39:47 UTC</createdTime>
+<ownerDesignName>modelo_er_bd_tp</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SYS_C007446" id="6896319F-B28A-FB8D-726B-8287F2F1BD4F">
+<createdBy>srk</createdBy>
+<createdTime>2018-12-12 18:39:47 UTC</createdTime>
+<ownerDesignName>modelo_er_bd_tp</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PAGAMENTO_SESSAO_PK" id="E77B1DD7-D39A-14D7-4C44-B9D423022B10">
+<createdBy>srk</createdBy>
+<createdTime>2018-12-12 18:39:47 UTC</createdTime>
+<ownerDesignName>modelo_er_bd_tp</ownerDesignName>
+<schemaObject>6B2ABCF9-45F8-D2DA-3840-366AADD26689</schemaObject>
+<segment>499087FC-8A36-DBCD-0C4A-6C4DA3208FB4</segment>
+<tableSpace>27743951-DBEB-F32D-DF9E-7A8698B63BFD</tableSpace>
+<indexSegment>499087FC-8A36-DBCD-0C4A-6C4DA3208FB4</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

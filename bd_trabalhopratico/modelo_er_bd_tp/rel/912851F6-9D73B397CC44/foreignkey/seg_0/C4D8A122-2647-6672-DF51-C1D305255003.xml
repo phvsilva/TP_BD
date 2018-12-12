@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C4D8A122-2647-6672-DF51-C1D305255003" containerWithKeyObject="44553C33-5FB0-DC4F-2A77-986580F62EAA" localFKIndex="6ABBF6AF-5BAA-9308-A086-8534A60F5C0B" name="SYS_C007445">
+<sourceConnName>bd_trabalhopratico</sourceConnName>
+<sourceObjSchema>BDTP</sourceObjSchema>
+<sourceObjName>SYS_C007445</sourceObjName>
+<createdBy>srk</createdBy>
+<createdTime>2018-12-12 18:39:47 UTC</createdTime>
+<ownerDesignName>modelo_er_bd_tp</ownerDesignName>
+<referredTableLongName>BDTP.MODO_PAGAMENTO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>79C92854-6340-DECF-2A3D-A5F837714A3D</referredTableID>
+<keyObject>FAEBD6B2-D6AD-B881-1064-9E32EDACAC11</keyObject>
+<referredKeyID>FAEBD6B2-D6AD-B881-1064-9E32EDACAC11</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_MODOPAG</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

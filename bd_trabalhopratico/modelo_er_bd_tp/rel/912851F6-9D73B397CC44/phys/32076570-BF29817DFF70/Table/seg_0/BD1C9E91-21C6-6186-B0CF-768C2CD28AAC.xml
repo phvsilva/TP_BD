@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="SESSAO" directorySegmentName="seg_0" id="BD1C9E91-21C6-6186-B0CF-768C2CD28AAC">
+<createdBy>srk</createdBy>
+<createdTime>2018-12-12 18:39:47 UTC</createdTime>
+<ownerDesignName>modelo_er_bd_tp</ownerDesignName>
+<schemaObject>6B2ABCF9-45F8-D2DA-3840-366AADD26689</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>9C84E7C4-42B8-1F4C-0B7C-3CD534E103E6</segment>
+<tableSpace>27743951-DBEB-F32D-DF9E-7A8698B63BFD</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="HORA_INICIO" id="0BD2BC2E-0EC9-BC90-7FB4-6B7367BA5B39">
+<createdBy>srk</createdBy>
+<createdTime>2018-12-12 18:39:47 UTC</createdTime>
+<ownerDesignName>modelo_er_bd_tp</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_PROFESSOR" id="15B06390-1C0D-EE5D-5D1E-2DFE97440075">
+<createdBy>srk</createdBy>
+<createdTime>2018-12-12 18:39:47 UTC</createdTime>
+<ownerDesignName>modelo_er_bd_tp</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="HORA_FIM" id="34B61A13-2B18-01FE-EC3D-FB3DC61D57AF">
+<createdBy>srk</createdBy>
+<createdTime>2018-12-12 18:39:47 UTC</createdTime>
+<ownerDesignName>modelo_er_bd_tp</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NUM_SESSAO" id="51891687-7B4F-C4B6-86FC-F54741D9CF39">
+<createdBy>srk</createdBy>
+<createdTime>2018-12-12 18:39:47 UTC</createdTime>
+<ownerDesignName>modelo_er_bd_tp</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_SALA" id="87C262F3-F961-1AF4-045A-4553DE0CE15F">
+<createdBy>srk</createdBy>
+<createdTime>2018-12-12 18:39:47 UTC</createdTime>
+<ownerDesignName>modelo_er_bd_tp</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DATA" id="E0D08361-16A9-B194-3DA2-AF539CF1ACF8">
+<createdBy>srk</createdBy>
+<createdTime>2018-12-12 18:39:47 UTC</createdTime>
+<ownerDesignName>modelo_er_bd_tp</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_DISCIPLINA" id="FC8F9D13-72B6-07FE-36FD-81221DE21E09">
+<createdBy>srk</createdBy>
+<createdTime>2018-12-12 18:39:47 UTC</createdTime>
+<ownerDesignName>modelo_er_bd_tp</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SYS_C007439" id="1869A499-EF00-60D4-BB40-3C2C6514A229">
+<createdBy>srk</createdBy>
+<createdTime>2018-12-12 18:39:47 UTC</createdTime>
+<ownerDesignName>modelo_er_bd_tp</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SYS_C007440" id="C6C0E4D7-FF37-53F6-36A4-25210E29DF4F">
+<createdBy>srk</createdBy>
+<createdTime>2018-12-12 18:39:47 UTC</createdTime>
+<ownerDesignName>modelo_er_bd_tp</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SYS_C007441" id="F45D6D0C-DB12-6239-BDDE-BE4B9979C2FF">
+<createdBy>srk</createdBy>
+<createdTime>2018-12-12 18:39:47 UTC</createdTime>
+<ownerDesignName>modelo_er_bd_tp</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="SESSAO_PK" id="E9AAC593-AB3A-B724-0F9E-BABA302061F4">
+<createdBy>srk</createdBy>
+<createdTime>2018-12-12 18:39:47 UTC</createdTime>
+<ownerDesignName>modelo_er_bd_tp</ownerDesignName>
+<schemaObject>6B2ABCF9-45F8-D2DA-3840-366AADD26689</schemaObject>
+<segment>499087FC-8A36-DBCD-0C4A-6C4DA3208FB4</segment>
+<tableSpace>27743951-DBEB-F32D-DF9E-7A8698B63BFD</tableSpace>
+<indexSegment>499087FC-8A36-DBCD-0C4A-6C4DA3208FB4</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

@@ -1,0 +1,159 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FA718406-F05E-241C-6745-8EC061ECC7D7" schemaObject="6B2ABCF9-45F8-D2DA-3840-366AADD26689" name="PROFESSOR">
+<sourceConnName>bd_trabalhopratico</sourceConnName>
+<sourceObjSchema>BDTP</sourceObjSchema>
+<sourceObjName>PROFESSOR</sourceObjName>
+<createdBy>srk</createdBy>
+<createdTime>2018-12-12 18:39:47 UTC</createdTime>
+<ownerDesignName>modelo_er_bd_tp</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_PROFESSOR" id="ABB9022F-8844-863A-09E0-E07988EF4971">
+<sourceConnName>bd_trabalhopratico</sourceConnName>
+<sourceObjSchema>PROFESSOR</sourceObjSchema>
+<sourceObjName>ID_PROFESSOR</sourceObjName>
+<createdBy>srk</createdBy>
+<createdTime>2018-12-12 18:39:47 UTC</createdTime>
+<ownerDesignName>modelo_er_bd_tp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOME" id="3A86C2FE-F5BE-048B-BBCE-011395A68AB6">
+<sourceConnName>bd_trabalhopratico</sourceConnName>
+<sourceObjSchema>PROFESSOR</sourceObjSchema>
+<sourceObjName>NOME</sourceObjName>
+<createdBy>srk</createdBy>
+<createdTime>2018-12-12 18:39:47 UTC</createdTime>
+<ownerDesignName>modelo_er_bd_tp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RUA" id="89DC2739-102E-5FAC-7EB5-190BB882DDBD">
+<sourceConnName>bd_trabalhopratico</sourceConnName>
+<sourceObjSchema>PROFESSOR</sourceObjSchema>
+<sourceObjName>RUA</sourceObjName>
+<createdBy>srk</createdBy>
+<createdTime>2018-12-12 18:39:47 UTC</createdTime>
+<ownerDesignName>modelo_er_bd_tp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NPORTA" id="565FA2B0-144E-FCF3-0563-248B05829EFB">
+<sourceConnName>bd_trabalhopratico</sourceConnName>
+<sourceObjSchema>PROFESSOR</sourceObjSchema>
+<sourceObjName>NPORTA</sourceObjName>
+<createdBy>srk</createdBy>
+<createdTime>2018-12-12 18:39:47 UTC</createdTime>
+<ownerDesignName>modelo_er_bd_tp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CPOSTAL" id="7C35743B-A9E9-DAC6-EC0D-52B74CC3A38B">
+<sourceConnName>bd_trabalhopratico</sourceConnName>
+<sourceObjSchema>PROFESSOR</sourceObjSchema>
+<sourceObjName>CPOSTAL</sourceObjName>
+<createdBy>srk</createdBy>
+<createdTime>2018-12-12 18:39:47 UTC</createdTime>
+<ownerDesignName>modelo_er_bd_tp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8 BYTE</dataTypeSize>
+<ownDataTypeParameters>8 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B2368AE1-97C0-9A18-8D53-C2DB5586FB85" referredColumn="D5849155-D2EB-5378-C7BD-4E38CF6AB6B0"/>
+</associations>
+</Column>
+<Column name="TELEFONE" id="1A4485A2-98ED-72DB-62B2-7512D59DAE05">
+<sourceConnName>bd_trabalhopratico</sourceConnName>
+<sourceObjSchema>PROFESSOR</sourceObjSchema>
+<sourceObjName>TELEFONE</sourceObjName>
+<createdBy>srk</createdBy>
+<createdTime>2018-12-12 18:39:47 UTC</createdTime>
+<ownerDesignName>modelo_er_bd_tp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMAIL" id="65775928-602A-76FE-91F4-39C4D6E38B12">
+<sourceConnName>bd_trabalhopratico</sourceConnName>
+<sourceObjSchema>PROFESSOR</sourceObjSchema>
+<sourceObjName>EMAIL</sourceObjName>
+<createdBy>srk</createdBy>
+<createdTime>2018-12-12 18:39:47 UTC</createdTime>
+<ownerDesignName>modelo_er_bd_tp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NIF" id="BCBE2F73-6EB6-60E4-97AA-E87A2E9B3657">
+<sourceConnName>bd_trabalhopratico</sourceConnName>
+<sourceObjSchema>PROFESSOR</sourceObjSchema>
+<sourceObjName>NIF</sourceObjName>
+<createdBy>srk</createdBy>
+<createdTime>2018-12-12 18:39:47 UTC</createdTime>
+<ownerDesignName>modelo_er_bd_tp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="96FEFE05-8B63-D40C-B154-201BEC418706" schemaObject="6B2ABCF9-45F8-D2DA-3840-366AADD26689" name="PROFESSOR_PK">
+<sourceConnName>bd_trabalhopratico</sourceConnName>
+<sourceObjSchema>BDTP</sourceObjSchema>
+<sourceObjName>SYS_C007397</sourceObjName>
+<createdBy>srk</createdBy>
+<createdTime>2018-12-12 18:39:47 UTC</createdTime>
+<ownerDesignName>modelo_er_bd_tp</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ABB9022F-8844-863A-09E0-E07988EF4971"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1A98C78A-48AB-FC45-BAA0-77A07D70787B" name="SYS_C007434">
+<createdBy>srk</createdBy>
+<createdTime>2018-12-12 18:39:47 UTC</createdTime>
+<ownerDesignName>modelo_er_bd_tp</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7C35743B-A9E9-DAC6-EC0D-52B74CC3A38B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,39 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="TIPOSALA" directorySegmentName="seg_0" id="39DF08DD-B9EC-6A19-CC3B-020F32E85404">
+<createdBy>srk</createdBy>
+<createdTime>2018-12-12 18:39:47 UTC</createdTime>
+<ownerDesignName>modelo_er_bd_tp</ownerDesignName>
+<schemaObject>6B2ABCF9-45F8-D2DA-3840-366AADD26689</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>9C84E7C4-42B8-1F4C-0B7C-3CD534E103E6</segment>
+<tableSpace>27743951-DBEB-F32D-DF9E-7A8698B63BFD</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="DESCRICAO" id="F4BE510E-7DDE-7D0C-A2CB-C3E998650449">
+<createdBy>srk</createdBy>
+<createdTime>2018-12-12 18:39:47 UTC</createdTime>
+<ownerDesignName>modelo_er_bd_tp</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_TIPO" id="FC9F0B92-9917-39D2-CE19-00A7BA83C824">
+<createdBy>srk</createdBy>
+<createdTime>2018-12-12 18:39:47 UTC</createdTime>
+<ownerDesignName>modelo_er_bd_tp</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="TIPOSALA_PK" id="CFFBD4B8-FD16-2C0F-E2D7-CC71D05B3CB4">
+<createdBy>srk</createdBy>
+<createdTime>2018-12-12 18:39:47 UTC</createdTime>
+<ownerDesignName>modelo_er_bd_tp</ownerDesignName>
+<schemaObject>6B2ABCF9-45F8-D2DA-3840-366AADD26689</schemaObject>
+<segment>499087FC-8A36-DBCD-0C4A-6C4DA3208FB4</segment>
+<tableSpace>27743951-DBEB-F32D-DF9E-7A8698B63BFD</tableSpace>
+<indexSegment>499087FC-8A36-DBCD-0C4A-6C4DA3208FB4</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="modelo_er_bd_tp" id="867B1922-4666-1395-6A3E-691EBF0424D8" version="3.5">
+<createdBy>srk</createdBy>
+<createdTime>2018-12-12 18:33:33 UTC</createdTime>
+<ownerDesignName>modelo_er_bd_tp</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>867B1922-4666-1395-6A3E-691EBF0424D8</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="E96BB65C-44BF-9EA9-AF7B-495997094CCB">
+<designStoragePath>C:\</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

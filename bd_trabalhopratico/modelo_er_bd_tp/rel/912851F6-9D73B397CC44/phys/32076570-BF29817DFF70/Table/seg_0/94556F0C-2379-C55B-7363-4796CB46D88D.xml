@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="SALAS" directorySegmentName="seg_0" id="94556F0C-2379-C55B-7363-4796CB46D88D">
+<createdBy>srk</createdBy>
+<createdTime>2018-12-12 18:39:47 UTC</createdTime>
+<ownerDesignName>modelo_er_bd_tp</ownerDesignName>
+<schemaObject>6B2ABCF9-45F8-D2DA-3840-366AADD26689</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>9C84E7C4-42B8-1F4C-0B7C-3CD534E103E6</segment>
+<tableSpace>27743951-DBEB-F32D-DF9E-7A8698B63BFD</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ID_TIPO" id="17E55171-8FC2-88BD-FD11-00B1490E0654">
+<createdBy>srk</createdBy>
+<createdTime>2018-12-12 18:39:47 UTC</createdTime>
+<ownerDesignName>modelo_er_bd_tp</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_SALA" id="9FE8C4B5-7B14-61E4-41F0-07F7B71FF713">
+<createdBy>srk</createdBy>
+<createdTime>2018-12-12 18:39:47 UTC</createdTime>
+<ownerDesignName>modelo_er_bd_tp</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SYS_C007432" id="3D6D3768-DD9E-A57D-A959-CD2BB930DDA4">
+<createdBy>srk</createdBy>
+<createdTime>2018-12-12 18:39:47 UTC</createdTime>
+<ownerDesignName>modelo_er_bd_tp</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="SALAS_PK" id="B424D69A-0344-1822-FAF4-8B74E9C750A9">
+<createdBy>srk</createdBy>
+<createdTime>2018-12-12 18:39:47 UTC</createdTime>
+<ownerDesignName>modelo_er_bd_tp</ownerDesignName>
+<schemaObject>6B2ABCF9-45F8-D2DA-3840-366AADD26689</schemaObject>
+<segment>499087FC-8A36-DBCD-0C4A-6C4DA3208FB4</segment>
+<tableSpace>27743951-DBEB-F32D-DF9E-7A8698B63BFD</tableSpace>
+<indexSegment>499087FC-8A36-DBCD-0C4A-6C4DA3208FB4</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

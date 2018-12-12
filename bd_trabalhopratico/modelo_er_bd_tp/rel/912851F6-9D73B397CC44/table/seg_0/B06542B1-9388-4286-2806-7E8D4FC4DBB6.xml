@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B06542B1-9388-4286-2806-7E8D4FC4DBB6" schemaObject="6B2ABCF9-45F8-D2DA-3840-366AADD26689" name="ALUNO_SESSAO">
+<sourceConnName>bd_trabalhopratico</sourceConnName>
+<sourceObjSchema>BDTP</sourceObjSchema>
+<sourceObjName>ALUNO_SESSAO</sourceObjName>
+<createdBy>srk</createdBy>
+<createdTime>2018-12-12 18:39:47 UTC</createdTime>
+<ownerDesignName>modelo_er_bd_tp</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NUM_ALUNO" id="CC5F622B-F2FB-4B7C-1697-1C2EBA2C98D4">
+<sourceConnName>bd_trabalhopratico</sourceConnName>
+<sourceObjSchema>ALUNO_SESSAO</sourceObjSchema>
+<sourceObjName>NUM_ALUNO</sourceObjName>
+<createdBy>srk</createdBy>
+<createdTime>2018-12-12 18:39:47 UTC</createdTime>
+<ownerDesignName>modelo_er_bd_tp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D9EB6FE2-1B79-FC7B-5B3D-BFD0FB864A1E" referredColumn="E173E1AD-745D-244B-A1FD-B692D734F315"/>
+</associations>
+</Column>
+<Column name="NUM_SESSAO" id="F07A94D1-329D-A1C5-8C0E-BB935E252725">
+<sourceConnName>bd_trabalhopratico</sourceConnName>
+<sourceObjSchema>ALUNO_SESSAO</sourceObjSchema>
+<sourceObjName>NUM_SESSAO</sourceObjName>
+<createdBy>srk</createdBy>
+<createdTime>2018-12-12 18:39:47 UTC</createdTime>
+<ownerDesignName>modelo_er_bd_tp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CDD74659-62EA-404F-3553-6596A399BDB6" referredColumn="51891687-7B4F-C4B6-86FC-F54741D9CF39"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="093F04E0-9F6E-3A50-42C7-AEA24397A620" schemaObject="6B2ABCF9-45F8-D2DA-3840-366AADD26689" name="ALUNO_SESSAO_PK">
+<sourceConnName>bd_trabalhopratico</sourceConnName>
+<sourceObjSchema>BDTP</sourceObjSchema>
+<sourceObjName>SYS_C007422</sourceObjName>
+<createdBy>srk</createdBy>
+<createdTime>2018-12-12 18:39:47 UTC</createdTime>
+<ownerDesignName>modelo_er_bd_tp</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CC5F622B-F2FB-4B7C-1697-1C2EBA2C98D4"/>
+<colUsage columnID="F07A94D1-329D-A1C5-8C0E-BB935E252725"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0637AF9D-1C2A-5044-1D3E-2AABACECE32F" name="SYS_C007442">
+<createdBy>srk</createdBy>
+<createdTime>2018-12-12 18:39:47 UTC</createdTime>
+<ownerDesignName>modelo_er_bd_tp</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CC5F622B-F2FB-4B7C-1697-1C2EBA2C98D4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E6B8DB5A-68D3-4953-A540-96F60B50CF91" name="SYS_C007443">
+<createdBy>srk</createdBy>
+<createdTime>2018-12-12 18:39:47 UTC</createdTime>
+<ownerDesignName>modelo_er_bd_tp</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F07A94D1-329D-A1C5-8C0E-BB935E252725"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

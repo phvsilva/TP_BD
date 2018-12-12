@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="PAGAMENTO" directorySegmentName="seg_0" id="44553C33-5FB0-DC4F-2A77-986580F62EAA">
+<createdBy>srk</createdBy>
+<createdTime>2018-12-12 18:39:47 UTC</createdTime>
+<ownerDesignName>modelo_er_bd_tp</ownerDesignName>
+<schemaObject>6B2ABCF9-45F8-D2DA-3840-366AADD26689</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>9C84E7C4-42B8-1F4C-0B7C-3CD534E103E6</segment>
+<tableSpace>27743951-DBEB-F32D-DF9E-7A8698B63BFD</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ID_MODOPAG" id="3A6DC4C2-D1BB-E643-0C9C-4698640C7954">
+<createdBy>srk</createdBy>
+<createdTime>2018-12-12 18:39:47 UTC</createdTime>
+<ownerDesignName>modelo_er_bd_tp</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VALOR_TOTAL" id="4F29D1CD-CD76-CAAF-BA5F-96B1F6798C2B">
+<createdBy>srk</createdBy>
+<createdTime>2018-12-12 18:39:47 UTC</createdTime>
+<ownerDesignName>modelo_er_bd_tp</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DATA_PAGAMENTO" id="5D2FD979-145E-8C0E-AB92-983D376B2DF4">
+<createdBy>srk</createdBy>
+<createdTime>2018-12-12 18:39:47 UTC</createdTime>
+<ownerDesignName>modelo_er_bd_tp</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NUM_PAGAMENTO" id="9CF8E09F-489E-0B6D-AE3F-0217950DE072">
+<createdBy>srk</createdBy>
+<createdTime>2018-12-12 18:39:47 UTC</createdTime>
+<ownerDesignName>modelo_er_bd_tp</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NUM_ALUNO" id="E0F4B0B0-25F5-AA3F-0ABD-AD6AA715A30D">
+<createdBy>srk</createdBy>
+<createdTime>2018-12-12 18:39:47 UTC</createdTime>
+<ownerDesignName>modelo_er_bd_tp</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SYS_C007445" id="6ABBF6AF-5BAA-9308-A086-8534A60F5C0B">
+<createdBy>srk</createdBy>
+<createdTime>2018-12-12 18:39:47 UTC</createdTime>
+<ownerDesignName>modelo_er_bd_tp</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SYS_C007444" id="DE480CF7-1EFD-5E71-2803-E64F5A857E04">
+<createdBy>srk</createdBy>
+<createdTime>2018-12-12 18:39:47 UTC</createdTime>
+<ownerDesignName>modelo_er_bd_tp</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PAGAMENTO_PK" id="4625EFE6-7257-2A6C-2477-241A81045AC4">
+<createdBy>srk</createdBy>
+<createdTime>2018-12-12 18:39:47 UTC</createdTime>
+<ownerDesignName>modelo_er_bd_tp</ownerDesignName>
+<schemaObject>6B2ABCF9-45F8-D2DA-3840-366AADD26689</schemaObject>
+<segment>499087FC-8A36-DBCD-0C4A-6C4DA3208FB4</segment>
+<tableSpace>27743951-DBEB-F32D-DF9E-7A8698B63BFD</tableSpace>
+<indexSegment>499087FC-8A36-DBCD-0C4A-6C4DA3208FB4</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

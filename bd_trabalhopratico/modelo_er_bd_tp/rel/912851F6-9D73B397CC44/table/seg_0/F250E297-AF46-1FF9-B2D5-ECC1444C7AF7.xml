@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F250E297-AF46-1FF9-B2D5-ECC1444C7AF7" schemaObject="6B2ABCF9-45F8-D2DA-3840-366AADD26689" name="PAGAMENTO_SESSAO">
+<sourceConnName>bd_trabalhopratico</sourceConnName>
+<sourceObjSchema>BDTP</sourceObjSchema>
+<sourceObjName>PAGAMENTO_SESSAO</sourceObjName>
+<createdBy>srk</createdBy>
+<createdTime>2018-12-12 18:39:47 UTC</createdTime>
+<ownerDesignName>modelo_er_bd_tp</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NUM_PAGAMENTO" id="11798B37-3BC1-0616-A7FD-7E1BEA6B1A73">
+<sourceConnName>bd_trabalhopratico</sourceConnName>
+<sourceObjSchema>PAGAMENTO_SESSAO</sourceObjSchema>
+<sourceObjName>NUM_PAGAMENTO</sourceObjName>
+<createdBy>srk</createdBy>
+<createdTime>2018-12-12 18:39:47 UTC</createdTime>
+<ownerDesignName>modelo_er_bd_tp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="774FF1BD-03B5-6395-54A0-B18B7CED43A1" referredColumn="9CF8E09F-489E-0B6D-AE3F-0217950DE072"/>
+</associations>
+</Column>
+<Column name="NUM_SESSAO" id="D0E892CE-5715-D63D-07F9-4FF342CE216C">
+<sourceConnName>bd_trabalhopratico</sourceConnName>
+<sourceObjSchema>PAGAMENTO_SESSAO</sourceObjSchema>
+<sourceObjName>NUM_SESSAO</sourceObjName>
+<createdBy>srk</createdBy>
+<createdTime>2018-12-12 18:39:47 UTC</createdTime>
+<ownerDesignName>modelo_er_bd_tp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="73B7D1BF-B8EA-4C20-93B4-AA851B4105C7" referredColumn="51891687-7B4F-C4B6-86FC-F54741D9CF39"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E77B1DD7-D39A-14D7-4C44-B9D423022B10" schemaObject="6B2ABCF9-45F8-D2DA-3840-366AADD26689" name="PAGAMENTO_SESSAO_PK">
+<sourceConnName>bd_trabalhopratico</sourceConnName>
+<sourceObjSchema>BDTP</sourceObjSchema>
+<sourceObjName>SYS_C007431</sourceObjName>
+<createdBy>srk</createdBy>
+<createdTime>2018-12-12 18:39:47 UTC</createdTime>
+<ownerDesignName>modelo_er_bd_tp</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="11798B37-3BC1-0616-A7FD-7E1BEA6B1A73"/>
+<colUsage columnID="D0E892CE-5715-D63D-07F9-4FF342CE216C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6896319F-B28A-FB8D-726B-8287F2F1BD4F" name="SYS_C007446">
+<createdBy>srk</createdBy>
+<createdTime>2018-12-12 18:39:47 UTC</createdTime>
+<ownerDesignName>modelo_er_bd_tp</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D0E892CE-5715-D63D-07F9-4FF342CE216C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="13061C4A-16B1-2254-8CAF-74858E11F79A" name="SYS_C007447">
+<createdBy>srk</createdBy>
+<createdTime>2018-12-12 18:39:47 UTC</createdTime>
+<ownerDesignName>modelo_er_bd_tp</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="11798B37-3BC1-0616-A7FD-7E1BEA6B1A73"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8C3B74DC-43A0-3B35-3475-07479900F78E" containerWithKeyObject="7DF26615-2813-7BFE-DCE1-1C48C49FC435" localFKIndex="B3CA783C-A336-C2FD-5E24-F9177759BDA3" name="SYS_C007437">
+<sourceConnName>bd_trabalhopratico</sourceConnName>
+<sourceObjSchema>BDTP</sourceObjSchema>
+<sourceObjName>SYS_C007437</sourceObjName>
+<createdBy>srk</createdBy>
+<createdTime>2018-12-12 18:39:47 UTC</createdTime>
+<ownerDesignName>modelo_er_bd_tp</ownerDesignName>
+<referredTableLongName>BDTP.CURSO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B1FBB850-83EF-87DD-EA0E-7A3AE5FDF40C</referredTableID>
+<keyObject>945F6FD6-75B3-4A8D-43AB-70FA98524FBD</keyObject>
+<referredKeyID>945F6FD6-75B3-4A8D-43AB-70FA98524FBD</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_CURSO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

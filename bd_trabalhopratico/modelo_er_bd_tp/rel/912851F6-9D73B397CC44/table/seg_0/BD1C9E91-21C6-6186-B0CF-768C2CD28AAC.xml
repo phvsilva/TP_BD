@@ -1,0 +1,171 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BD1C9E91-21C6-6186-B0CF-768C2CD28AAC" schemaObject="6B2ABCF9-45F8-D2DA-3840-366AADD26689" name="SESSAO">
+<sourceConnName>bd_trabalhopratico</sourceConnName>
+<sourceObjSchema>BDTP</sourceObjSchema>
+<sourceObjName>SESSAO</sourceObjName>
+<createdBy>srk</createdBy>
+<createdTime>2018-12-12 18:39:47 UTC</createdTime>
+<ownerDesignName>modelo_er_bd_tp</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NUM_SESSAO" id="51891687-7B4F-C4B6-86FC-F54741D9CF39">
+<sourceConnName>bd_trabalhopratico</sourceConnName>
+<sourceObjSchema>SESSAO</sourceObjSchema>
+<sourceObjName>NUM_SESSAO</sourceObjName>
+<createdBy>srk</createdBy>
+<createdTime>2018-12-12 18:39:47 UTC</createdTime>
+<ownerDesignName>modelo_er_bd_tp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATA" id="E0D08361-16A9-B194-3DA2-AF539CF1ACF8">
+<sourceConnName>bd_trabalhopratico</sourceConnName>
+<sourceObjSchema>SESSAO</sourceObjSchema>
+<sourceObjName>DATA</sourceObjName>
+<createdBy>srk</createdBy>
+<createdTime>2018-12-12 18:39:47 UTC</createdTime>
+<ownerDesignName>modelo_er_bd_tp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HORA_FIM" id="34B61A13-2B18-01FE-EC3D-FB3DC61D57AF">
+<sourceConnName>bd_trabalhopratico</sourceConnName>
+<sourceObjSchema>SESSAO</sourceObjSchema>
+<sourceObjName>HORA_FIM</sourceObjName>
+<createdBy>srk</createdBy>
+<createdTime>2018-12-12 18:39:47 UTC</createdTime>
+<ownerDesignName>modelo_er_bd_tp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 BYTE</dataTypeSize>
+<ownDataTypeParameters>5 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HORA_INICIO" id="0BD2BC2E-0EC9-BC90-7FB4-6B7367BA5B39">
+<sourceConnName>bd_trabalhopratico</sourceConnName>
+<sourceObjSchema>SESSAO</sourceObjSchema>
+<sourceObjName>HORA_INICIO</sourceObjName>
+<createdBy>srk</createdBy>
+<createdTime>2018-12-12 18:39:47 UTC</createdTime>
+<ownerDesignName>modelo_er_bd_tp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 BYTE</dataTypeSize>
+<ownDataTypeParameters>5 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_DISCIPLINA" id="FC8F9D13-72B6-07FE-36FD-81221DE21E09">
+<sourceConnName>bd_trabalhopratico</sourceConnName>
+<sourceObjSchema>SESSAO</sourceObjSchema>
+<sourceObjName>ID_DISCIPLINA</sourceObjName>
+<createdBy>srk</createdBy>
+<createdTime>2018-12-12 18:39:47 UTC</createdTime>
+<ownerDesignName>modelo_er_bd_tp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E7F40BF0-95AE-7EC0-0E38-44083AA8C8E8" referredColumn="94108014-2EE2-845C-B76B-29DE6C3E1AD7"/>
+</associations>
+</Column>
+<Column name="ID_PROFESSOR" id="15B06390-1C0D-EE5D-5D1E-2DFE97440075">
+<sourceConnName>bd_trabalhopratico</sourceConnName>
+<sourceObjSchema>SESSAO</sourceObjSchema>
+<sourceObjName>ID_PROFESSOR</sourceObjName>
+<createdBy>srk</createdBy>
+<createdTime>2018-12-12 18:39:47 UTC</createdTime>
+<ownerDesignName>modelo_er_bd_tp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CD2BA148-CF5A-3229-FA5A-9BC11989C676" referredColumn="ABB9022F-8844-863A-09E0-E07988EF4971"/>
+</associations>
+</Column>
+<Column name="ID_SALA" id="87C262F3-F961-1AF4-045A-4553DE0CE15F">
+<sourceConnName>bd_trabalhopratico</sourceConnName>
+<sourceObjSchema>SESSAO</sourceObjSchema>
+<sourceObjName>ID_SALA</sourceObjName>
+<createdBy>srk</createdBy>
+<createdTime>2018-12-12 18:39:47 UTC</createdTime>
+<ownerDesignName>modelo_er_bd_tp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="08948C1A-492A-5238-561D-9D3E6385234D" referredColumn="9FE8C4B5-7B14-61E4-41F0-07F7B71FF713"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E9AAC593-AB3A-B724-0F9E-BABA302061F4" schemaObject="6B2ABCF9-45F8-D2DA-3840-366AADD26689" name="SESSAO_PK">
+<sourceConnName>bd_trabalhopratico</sourceConnName>
+<sourceObjSchema>BDTP</sourceObjSchema>
+<sourceObjName>SYS_C007419</sourceObjName>
+<createdBy>srk</createdBy>
+<createdTime>2018-12-12 18:39:47 UTC</createdTime>
+<ownerDesignName>modelo_er_bd_tp</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="51891687-7B4F-C4B6-86FC-F54741D9CF39"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1869A499-EF00-60D4-BB40-3C2C6514A229" name="SYS_C007439">
+<createdBy>srk</createdBy>
+<createdTime>2018-12-12 18:39:47 UTC</createdTime>
+<ownerDesignName>modelo_er_bd_tp</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="15B06390-1C0D-EE5D-5D1E-2DFE97440075"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C6C0E4D7-FF37-53F6-36A4-25210E29DF4F" name="SYS_C007440">
+<createdBy>srk</createdBy>
+<createdTime>2018-12-12 18:39:47 UTC</createdTime>
+<ownerDesignName>modelo_er_bd_tp</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FC8F9D13-72B6-07FE-36FD-81221DE21E09"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F45D6D0C-DB12-6239-BDDE-BE4B9979C2FF" name="SYS_C007441">
+<createdBy>srk</createdBy>
+<createdTime>2018-12-12 18:39:47 UTC</createdTime>
+<ownerDesignName>modelo_er_bd_tp</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="87C262F3-F961-1AF4-045A-4553DE0CE15F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

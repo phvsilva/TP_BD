@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CD2BA148-CF5A-3229-FA5A-9BC11989C676" containerWithKeyObject="BD1C9E91-21C6-6186-B0CF-768C2CD28AAC" localFKIndex="1869A499-EF00-60D4-BB40-3C2C6514A229" name="SYS_C007439">
+<sourceConnName>bd_trabalhopratico</sourceConnName>
+<sourceObjSchema>BDTP</sourceObjSchema>
+<sourceObjName>SYS_C007439</sourceObjName>
+<createdBy>srk</createdBy>
+<createdTime>2018-12-12 18:39:47 UTC</createdTime>
+<ownerDesignName>modelo_er_bd_tp</ownerDesignName>
+<referredTableLongName>BDTP.PROFESSOR</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>FA718406-F05E-241C-6745-8EC061ECC7D7</referredTableID>
+<keyObject>96FEFE05-8B63-D40C-B154-201BEC418706</keyObject>
+<referredKeyID>96FEFE05-8B63-D40C-B154-201BEC418706</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_PROFESSOR</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

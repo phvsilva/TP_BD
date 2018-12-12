@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="73B7D1BF-B8EA-4C20-93B4-AA851B4105C7" containerWithKeyObject="F250E297-AF46-1FF9-B2D5-ECC1444C7AF7" localFKIndex="6896319F-B28A-FB8D-726B-8287F2F1BD4F" name="SYS_C007446">
+<sourceConnName>bd_trabalhopratico</sourceConnName>
+<sourceObjSchema>BDTP</sourceObjSchema>
+<sourceObjName>SYS_C007446</sourceObjName>
+<createdBy>srk</createdBy>
+<createdTime>2018-12-12 18:39:47 UTC</createdTime>
+<ownerDesignName>modelo_er_bd_tp</ownerDesignName>
+<referredTableLongName>BDTP.SESSAO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>BD1C9E91-21C6-6186-B0CF-768C2CD28AAC</referredTableID>
+<keyObject>E9AAC593-AB3A-B724-0F9E-BABA302061F4</keyObject>
+<referredKeyID>E9AAC593-AB3A-B724-0F9E-BABA302061F4</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>NUM_SESSAO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
