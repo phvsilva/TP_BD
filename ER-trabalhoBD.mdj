@@ -3176,7 +3176,7 @@
 							},
 							"name": "email",
 							"type": "VARCHAR",
-							"length": "30"
+							"length": "50"
 						},
 						{
 							"_type": "ERDColumn",
@@ -3356,7 +3356,7 @@
 							},
 							"name": "email",
 							"type": "VARCHAR",
-							"length": "30"
+							"length": "50"
 						},
 						{
 							"_type": "ERDColumn",
@@ -4336,7 +4336,7 @@
 							},
 							"name": "id_Curso",
 							"type": "INTEGER",
-							"length": "4",
+							"length": "5",
 							"primaryKey": true
 						},
 						{
