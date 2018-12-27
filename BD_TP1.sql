@@ -11,9 +11,8 @@ DROP TABLE Aluno CASCADE CONSTRAINTS;
 DROP TABLE Sessao CASCADE CONSTRAINTS;
 DROP TABLE Aluno_Sessao CASCADE CONSTRAINTS;
 DROP TABLE Pagamento CASCADE CONSTRAINTS;
-DROP TABLE Pagamento_Sessao CASCADE CONSTRAINTS;
+DROP TABLE Mensalidade CASCADE CONSTRAINTS;
 
--- CRIAR TABELAS
 CREATE TABLE codigoPostal (
     cPostal VARCHAR(8) NOT NULL,
     localidade VARCHAR(25) NOT NULL,
@@ -21,7 +20,7 @@ CREATE TABLE codigoPostal (
 );
 
 CREATE TABLE Modo_Pagamento (
-    id_ModoPag CHAR(2) NOT NULL,
+    id_ModoPag CHAR(4) NOT NULL,
     descricao VARCHAR(50) NOT NULL,
     PRIMARY KEY (id_ModoPag)
 );
@@ -110,37 +109,40 @@ CREATE TABLE Aluno_Sessao (
 
 CREATE TABLE Pagamento (
     num_pagamento INTEGER NOT NULL,
+    nMensalidade INTEGER NOT NULL,
     valor_total NUMERIC(5,2) NOT NULL,
     data_pagamento DATE NOT NULL,
     num_Aluno INTEGER NOT NULL,
-    id_ModoPag CHAR(2) NOT NULL,
+    id_ModoPag CHAR(4) NOT NULL,
     PRIMARY KEY (num_pagamento)
 );
 
-CREATE TABLE Pagamento_Sessao (
-    num_pagamento INTEGER NOT NULL,
+CREATE TABLE Mensalidade (
+    nMensalidade INTEGER NOT NULL,
+    num_aluno INTEGER NOT NULL,
     num_sessao INTEGER NOT NULL,
-    PRIMARY KEY (num_pagamento, num_sessao)
+    valor_sessoes NUMERIC(5,2) NOT NULL,
+    PRIMARY KEY (nMensalidade)
 );
-
--- DEFINIR CHAVES ESTRANGEIRAS (RESTRIÇÕES DE INTEGRIDADE)
 
 ALTER TABLE Salas ADD FOREIGN KEY (id_tipo) REFERENCES TipoSala(id_tipo);
 ALTER TABLE Curso ADD FOREIGN KEY (id_tipo) REFERENCES TipoCurso(id_tipo);
 ALTER TABLE Professor ADD FOREIGN KEY (cPostal) REFERENCES codigoPostal(cPostal);
-ALTER TABLE Professor_Disciplina ADD FOREIGN KEY (id_professor) REFERENCES Professor(id_Professor);
 ALTER TABLE Professor_Disciplina ADD FOREIGN KEY (id_Disciplina) REFERENCES Disciplina(id_Disciplina);
-ALTER TABLE Aluno ADD FOREIGN KEY (id_curso) REFERENCES Curso(id_Curso);
+ALTER TABLE Professor_Disciplina ADD FOREIGN KEY (id_professor) REFERENCES Professor(id_Professor);
 ALTER TABLE Aluno ADD FOREIGN KEY (cPostal) REFERENCES codigoPostal(cPostal);
-ALTER TABLE Sessao ADD FOREIGN KEY (id_Professor) REFERENCES Professor(id_Professor);
-ALTER TABLE Sessao ADD FOREIGN KEY (id_disciplina) REFERENCES Disciplina(id_Disciplina);
+ALTER TABLE Aluno ADD FOREIGN KEY (id_curso) REFERENCES Curso(id_Curso);
 ALTER TABLE Sessao ADD FOREIGN KEY (id_sala) REFERENCES Salas(id_sala);
+ALTER TABLE Sessao ADD FOREIGN KEY (id_disciplina) REFERENCES Disciplina(id_Disciplina);
+ALTER TABLE Sessao ADD FOREIGN KEY (id_Professor) REFERENCES Professor(id_Professor);
 ALTER TABLE Aluno_Sessao ADD FOREIGN KEY (num_Aluno) REFERENCES Aluno(num_Aluno);
 ALTER TABLE Aluno_Sessao ADD FOREIGN KEY (num_Sessao) REFERENCES Sessao(num_Sessao);
-ALTER TABLE Pagamento ADD FOREIGN KEY (num_Aluno) REFERENCES Aluno(num_Aluno);
 ALTER TABLE Pagamento ADD FOREIGN KEY (id_ModoPag) REFERENCES Modo_Pagamento(id_ModoPag);
-ALTER TABLE Pagamento_Sessao ADD FOREIGN KEY (num_sessao) REFERENCES Sessao(num_Sessao);
-ALTER TABLE Pagamento_Sessao ADD FOREIGN KEY (num_pagamento) REFERENCES Pagamento(num_pagamento);
+ALTER TABLE Pagamento ADD FOREIGN KEY (num_Aluno) REFERENCES Aluno(num_Aluno);
+ALTER TABLE Pagamento ADD FOREIGN KEY (nMensalidade) REFERENCES Mensalidade(nMensalidade);
+ALTER TABLE Mensalidade ADD FOREIGN KEY (num_aluno) REFERENCES Aluno(num_Aluno);
+ALTER TABLE Mensalidade ADD FOREIGN KEY (num_sessao) REFERENCES Sessao(num_Sessao);
+
 
 -- INSERIR DADOS EM ALGUMAS TABELAS PARA TESTAR
 
