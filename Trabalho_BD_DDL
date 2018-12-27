@@ -12,6 +12,7 @@ DROP TABLE Sessao CASCADE CONSTRAINTS;
 DROP TABLE Aluno_Sessao CASCADE CONSTRAINTS;
 DROP TABLE Pagamento CASCADE CONSTRAINTS;
 DROP TABLE Mensalidade CASCADE CONSTRAINTS;
+DROP TABLE Aluno_Mensalidade CASCADE CONSTRAINTS;
 
 CREATE TABLE codigoPostal (
     cPostal VARCHAR(8) NOT NULL,
@@ -98,6 +99,7 @@ CREATE TABLE Sessao (
     id_disciplina INTEGER NOT NULL,
     id_Professor CHAR(4) NOT NULL,
     id_sala CHAR(4) NOT NULL,
+    nMensalidade INTEGER NOT NULL,
     PRIMARY KEY (num_Sessao)
 );
 
@@ -119,10 +121,16 @@ CREATE TABLE Pagamento (
 
 CREATE TABLE Mensalidade (
     nMensalidade INTEGER NOT NULL,
-    num_aluno INTEGER NOT NULL,
-    num_sessao INTEGER NOT NULL,
-    valor_sessoes NUMERIC(5,2) NOT NULL,
+    Mes VARCHAR(20) NOT NULL,
+    Ano VARCHAR(4) NOT NULL,
     PRIMARY KEY (nMensalidade)
+);
+
+CREATE TABLE Aluno_Mensalidade (
+    nMensalidade INTEGER NOT NULL,
+    num_Aluno INTEGER NOT NULL,
+    valor NUMERIC(5,2) NOT NULL,
+    PRIMARY KEY (nMensalidade, num_Aluno)
 );
 
 ALTER TABLE Salas ADD FOREIGN KEY (id_tipo) REFERENCES TipoSala(id_tipo);
@@ -135,10 +143,11 @@ ALTER TABLE Aluno ADD FOREIGN KEY (id_curso) REFERENCES Curso(id_Curso);
 ALTER TABLE Sessao ADD FOREIGN KEY (id_sala) REFERENCES Salas(id_sala);
 ALTER TABLE Sessao ADD FOREIGN KEY (id_disciplina) REFERENCES Disciplina(id_Disciplina);
 ALTER TABLE Sessao ADD FOREIGN KEY (id_Professor) REFERENCES Professor(id_Professor);
+ALTER TABLE Sessao ADD FOREIGN KEY (nMensalidade) REFERENCES Mensalidade(nMensalidade);
 ALTER TABLE Aluno_Sessao ADD FOREIGN KEY (num_Aluno) REFERENCES Aluno(num_Aluno);
 ALTER TABLE Aluno_Sessao ADD FOREIGN KEY (num_Sessao) REFERENCES Sessao(num_Sessao);
 ALTER TABLE Pagamento ADD FOREIGN KEY (id_ModoPag) REFERENCES Modo_Pagamento(id_ModoPag);
 ALTER TABLE Pagamento ADD FOREIGN KEY (num_Aluno) REFERENCES Aluno(num_Aluno);
 ALTER TABLE Pagamento ADD FOREIGN KEY (nMensalidade) REFERENCES Mensalidade(nMensalidade);
-ALTER TABLE Mensalidade ADD FOREIGN KEY (num_aluno) REFERENCES Aluno(num_Aluno);
-ALTER TABLE Mensalidade ADD FOREIGN KEY (num_sessao) REFERENCES Sessao(num_Sessao);
+ALTER TABLE Aluno_Mensalidade ADD FOREIGN KEY (num_Aluno) REFERENCES Aluno(num_Aluno);
+ALTER TABLE Aluno_Mensalidade ADD FOREIGN KEY (nMensalidade) REFERENCES Mensalidade(nMensalidade);
